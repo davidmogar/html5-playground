@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML5 Playground</title>
+
+    <meta name="author" content="David Moreno-García">
+    <meta name="keywords" content="html5,playground,examples">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/playground.js"></script>
+  </head>
+  <body>
+    <nav>
+
+    </nav>
+
+    <header>
+      <h1>Welcome to HTML5 playground</h1>
+    </header>
+
+    <section id="localstorage">
+      <h2>Local storage</h2>
+
+      <article class="demo">
+        <p>Write whatever you want in this input. The text will be available in your next visit to this page.</p>
+        <input type="text" placeholder="Type here ;)" />
+      </article>
+    </section>
+
+    <section id="sessionstorage">
+      <h2>Session storage</h2>
+
+      <article class="demo">
+        <p>Session storage store values in the browser that are available only during the currenct session. In this example we show how many times you have updated the previous section input.</p>
+        <p>You have updated the input of local storage section <span>0</span> times in this session.</p>
+      </article>
+    </section>
+
+    <section id="geolocation">
+      <h2>Geolocation</h2>
+
+      <article class="demo">
+        <p>Geolocation API let us show your current position. Is this correct? We think so :)</p>
+        <div id="mapholder"></div>
+      </article>
+    </section>
+
+    <section id="pagevisibility">
+      <h2>Page Visibility</h2>
+
+      <article class="demo">
+        <p>With Page Visibility API we can know if you the page is visible or in focus. If you left the website we will know, MUAHAHAHA.</p>
+        <p>You haven't left the website... yet.</p>
+      </article>
+    </section>
+  </body>
+</html>
